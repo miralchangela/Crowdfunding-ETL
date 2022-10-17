@@ -51,6 +51,19 @@
 
 ![ERD_diagram](https://github.com/miralchangela/Crowdfunding-ETL/blob/main/images/crowdfunding_db_relationships.png)
 
+* Using SQL query , create a table named email contacts which is having remaining goal. Table contains the first name of each contact, the last name, the email address, and the remaining goal amount (as "Remaining Goal Amount") in descending order for each live campaign.
+
+* The table matches the following image:
+
+![email_contacts_remaining_goal_amount](https://github.com/miralchangela/Crowdfunding-ETL/blob/main/images/email_contacts_remaining_goal_amount.png)
+
+* a SQL query that creates a new table named email_backers_remaining_goal_amount that contains the email addresses of the backers in descending order, the first and the last name of each backer, the cf_id, the company name, the description, the end date of the campaign, and the remaining amount of the campaign goal as "Left of Goal".
+
+* The table matches the following image:
+
+![/email_backers_remaining_goal_amount](https://github.com/miralchangela/Crowdfunding-ETL/blob/main/images/email_backers_remaining_goal_amount.png)
+
+* After that both the table exported as CSV files into the desired path of files.
 
 
 
